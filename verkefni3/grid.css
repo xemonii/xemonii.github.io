@@ -1,0 +1,47 @@
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+@media screen and (min-width:37.5em){
+
+    body{
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    section{
+    border: 2px solid;
+    border-color: lightgray;
+    }
+
+    div{
+    padding: 30px;
+    }
+
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 48em) {
+
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media screen and (min-width: 60em) {
+    
+    .container3{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}
