@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*
+==============================
+MAIN 
+==============================
+*/
+
+body{
+   background: linear-gradient(darkcyan, lightblue) fixed;
+   font-family: Montserrat;
+
+   margin: 0;
+}
+
+.padding{ 
+   margin: 10px;
+}
+ 
+ html {
+    scroll-behavior: smooth;
+ }
+
+ a:link{
+   color: darkcyan;
+   text-decoration: none;
+ }
+
+ a:visited{
+   color: darkcyan;
+ }
+
+ ul{
+   list-style-type: none;
+}
+
+.copy{
+   margin: 0;
+   padding: 15px;
+   background: white;
+ }
+
+ .container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px;
+   max-width: auto;
+
+   background-color: white;
+   color: darkcyan;
+}
+
+.innermenu{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 0 auto;
+}
+
+.border{
+   background: white;
+   border: 1px solid darkcyan;
+   padding: 10px;
+}
+
+.footer{
+   padding: 30px;
+
+  }
+
+     .arrow{
+      position: fixed;
+      right: 15px;
+      bottom: 15px;
+  
+      font-size: 200%;
+   
+      height: 45px;
+      width: 45px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: white;
+     }
+/*
+==============================
+MEDIA SCREEN
+==============================
+*/
+
+@media screen and (min-width: 37.5em){
+
+   .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px;
+      max-width: auto;
+   
+      background-color: white;
+      color: darkcyan;
+   }
+
+   .innermenu{
+      display: grid;
+      grid-template-columns: 1fr;
+      max-width: 65%;
+      margin: 0 auto;
+   }
+
+   .arrow{
+      position: fixed;
+      right: 15px;
+      bottom: 15px;
+  
+      font-size: 200%;
+   
+      height: 45px;
+      width: 45px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: white;
+     }
+
+}
+
+@media screen and (min-width: 48em){
+
+   .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px 15%;
+      max-width: auto;
+   
+      background-color: white;
+      color: darkcyan;
+   }
+   
+   .topnav{
+      text-transform: uppercase;
+      text-align: center;
+   }
+   
+   .innermenu{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 65%;
+      margin: 0 auto;
+   }
+
+   .arrow{
+      position: fixed;
+      right: 15px;
+      bottom: 15px;
+  
+      font-size: 200%;
+   
+      height: 45px;
+      width: 45px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: white;
+     }
+
+}
+
+@media screen and (min-width: 60em){
+
+   .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px 5%;
+      max-width: auto;
+   
+      background-color: white;
+      color: darkcyan;
+   }
+   
+   .topnav{
+      text-transform: uppercase;
+      text-align: center;
+   }
+   
+   .verkefni{
+      text-align: right;
+   }
+   
+   .innermenu{
+      display: flex;
+      flex-flow: row;
+      max-width: 65%;
+      margin: 0 auto;
+   }
+   
+   .padding{ 
+      max-width: 65%;
+      margin: 0 auto;
+   }
+   
+   .arrow{
+       position: fixed;
+       right: 15px;
+       bottom: 15px;
+   
+       font-size: 200%;
+    
+       height: 45px;
+       width: 45px;
+       text-align: center;
+       border-radius: 30px;
+       background-color: white;
+      }
+
+      .copy{
+         margin: 0;
+         padding: 15px;
+         background: white;
+       }
+
+       .border{
+         background: white;
+         border: 1px solid darkcyan;
+         padding: 10px;
+      }
+
+}
