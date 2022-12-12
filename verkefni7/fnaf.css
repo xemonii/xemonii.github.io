@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+
+body {
+    cursor: url(images/pizzaslice.png), url(images/cursor.svg), default;
+    background-image: url("images/fnaf1office.png");
+    margin: 0 auto;
+
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+}
+
+.navigation{
+    background-color: rgb(0, 0, 0, 80%);
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+}
+
+.navigation img{
+    float: left;
+    max-width: 80%;
+    height: auto;
+}
+
+.navlist{
+    display: inline;
+    flex-flow: row;
+}
+
+.container{
+    background-color: black;
+    border: white solid 1px;
+    margin: 100px;
+    padding: 20px;
+}
+
+.games{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 100px 0px 100px;
+}
+
+.border{
+    border: white solid 1px;
+}
+
+section a:link{
+    background: none;
+    padding: 0px;
+}
+
+iframe{
+    border: white solid 1px;
+    width: 150px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0, 80%);
+    padding: 20px;
+}
+
+footer a:link{
+    background: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+i{
+    color: rgb(230, 197, 255);
+}
+
+a:link, a:visited {
+    background-color: #ff1100;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 10px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(157, 0, 0);
+  }
+
+  /* MEDIA SCREEN */
+
+  @media screen and (min-width: 37.5em){
+
+    iframe{
+        width: 350px;
+    }
+
+    .navigation img{
+        float: left;
+        max-width: 60%;
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 100px 0px 100px;
+    }
+
+  }
+
+  @media screen and (min-width: 48em){
+
+    iframe{
+        width: 400px;
+    }
+
+    .navigation img{
+        float: left;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 100px 0px 100px;
+    }
+
+  }
+
+  @media screen and (min-width: 60em){
+
+    iframe{
+        width: 560px;
+    }
+
+    .navigation img{
+        float: left;
+        max-width: 20%;
+        height: auto;
+    }
+
+    .games{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin: 0px 100px 0px 100px;
+    }
+
+  }
